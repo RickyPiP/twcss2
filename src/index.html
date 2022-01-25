@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body>
-    <div>
-        <h1>Hello world</h1>
+<body class="h-full">
+    <div class="h-full">
+        <header class="p-6 pb-24 flex justify-between items-center bg-gradient-to-r from-blue-800 to-cyan-600 w-full">
+            <div class="h-8">
+                <img src="https://tailwindui.com/img/logos/workflow-mark-cyan-200.svg" alt="">
+            </div>
+            <div class="flex items-center p-1 rounded-md pl-5 pr-28 bg-white bg-opacity-20 focus-within:bg-opacity-100 focus-within:text-gray-600">
+                <span class="iconify invert mr-3" data-icon="heroicons-solid:search" data-width="20"></span>
+                <input type="text" placeholder="Search" class=" placeholder-white font-light bg-transparent py-1 focus:outline-none focus-within:placeholder:text-gray-600">
+            </div>
+            <div class="p-1.5 rounded-md hover:bg-white hover:bg-opacity-10">
+               <span class="iconify my-auto invert hover:cursor-pointer" data-icon="heroicons-outline:menu" data-width="30"></span>
+            </div>
+        </header>
     </div>
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
 </body>
 </html>
