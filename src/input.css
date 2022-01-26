@@ -7,3 +7,12 @@ img , video {
     height: 100%;
     width: auto;
 }
+
+.two-block {
+    line-height: 15px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
