@@ -16,3 +16,7 @@ img , video {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+
+.lg-column {
+    grid-template-columns: 70% 30px;
+}
