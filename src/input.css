@@ -17,6 +17,7 @@ img , video {
     -webkit-box-orient: vertical;
 }
 
-.lg-column {
-    grid-template-columns: 70% 30px;
+.min-w-sm {
+    min-width: 640px;
 }
+
